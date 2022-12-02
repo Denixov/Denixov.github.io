@@ -1,7 +1,10 @@
 body{
-	background-color:#000000;
-	
+	background-color:#eba80b;
+	margin: 0px;
 	}
+body.dark-theme {
+	background-color:#332505;
+}	
 .post{ 
 	width:50%;
 	background-color:#f1f1f1;
@@ -43,4 +46,9 @@ footer div{
 	#good_arest{
     content:url(https://i.gifer.com/SnXA.gif);	
 	}
+}
+button {
+	float: right;
+	margin: 3px 10px 0px 10px;
+	display: flex;
 }
