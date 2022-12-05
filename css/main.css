@@ -3,7 +3,7 @@ body{
 	margin: 0px;
 	}
 body.dark-theme {
-	background-color:#332505;
+	background-color:4a2f07;
 }	
 .post{ 
 	width:50%;
@@ -13,6 +13,14 @@ body.dark-theme {
 	overflow:hidden;
 	
 	
+}
+.dark-theme .post {
+	color:white;
+	background-color:4f0404;
+}
+.dark-theme header{
+	color:white;
+	background-color:4f0404;
 }
 .post h1{
 padding:10px;
@@ -29,6 +37,10 @@ header{
 	position:sticky;
 	top:0;
 	margin-bottom:5px;
+}
+.dark-theme footer{
+	color:white;
+	background-color:4a2f07;
 }
 footer{
 	background-color:#ff9900;
