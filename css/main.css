@@ -64,3 +64,17 @@ button {
 	margin: 3px 10px 0px 10px;
 	display: flex;
 }
+.like{
+	float: right;
+	font-size:24px;
+	user-select: none;
+	display: flex;
+}
+.plus {
+	width: 32px;
+	color:green;
+}
+.minus{
+	width:32px;
+	color:red;
+}
