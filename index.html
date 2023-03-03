@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Welcome to Sinferopol page!
+	</title>
+
+	<!--Style CSS-->
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>
+	    Enjoy!</h1>
+	<h6>of the limp bizkit!</h6>
+
+	<div class="myProducts">
+		<div class="myProducts-gallery">
+			<img src=
+"https://imagine-club.com/sites/default/files/photos/significant_other_limp_bizkit_2_lp_interscope_eu_0.jpg"
+				alt="click here"
+				onclick="myImageFunction(this)">
+			<img src=
+"https://www.timeout.ru/wp-content/uploads/2021/11/limp.jpg"
+				alt="click here"
+				onclick="myImageFunction(this)">
+			<img src=
+"https://avatars.mds.yandex.net/i?id=fce2f564923694b973b35650216c7d3102c20631-6361230-images-thumbs&n=13"
+				alt="click here"
+				onclick="myImageFunction(this)">
+			<img src=
+"https://avatars.yandex.net/get-music-content/103235/649bb858.a.6929618-1/m1000x1000?webp=false"
+				alt="click here"
+				onclick="myImageFunction(this)">
+		</div>
+
+		<div class="image-container">
+			<img id="img-Box" src=
+"https://sun9-4.userapi.com/impf/XlNwBNdp3PTr1mWagWCKGXsXbtVFoBher_NBjQ/eoNLdiB2dbE.jpg?size=2048x2048&quality=96&sign=0e2267cc339423db02d05f1fe2e09045&c_uniq_tag=S9YNYoOVQ-jR6-BSY9G9s3JL9aDZhvinx0xslgM8nvQ&type=album"
+				alt="click here">
+		</div>
+	</div>
+
+	<script>
+		function myImageFunction(productSmallImg) {
+			var productFullImg = document.getElementById("img-Box");
+			productFullImg.src = productSmallImg.src;
+		}
+	</script>
+</body>
+
+</html>
